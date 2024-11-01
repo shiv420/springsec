@@ -12,4 +12,9 @@ public class WelcomeController {
     public String welcome(){
         return "Welcome to Spring Security framework.";
     }
+
+    @GetMapping("/bug")
+    public String bug(){
+        return "Welcome to Spring Security framework bug with git.";
+    }
 }
